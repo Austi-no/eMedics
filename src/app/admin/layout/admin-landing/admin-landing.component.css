@@ -1,0 +1,17 @@
+.chart-wrapper {
+  height:100%;
+}
+
+a{
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+}
+
+.block {
+  margin-bottom: 24px;
+  background-color: #c2d5e2;
+  box-shadow: 0 1px 1px #e4e7ed;
+}

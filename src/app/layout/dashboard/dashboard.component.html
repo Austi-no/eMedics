@@ -1,0 +1,213 @@
+<!-- Page Content -->
+<div class="content">
+  <div class="row">
+    <!-- Row #1 -->
+    <div class="col-md-6 col-xl-3">
+      <a class="block block-bordered block-rounded block-link-shadow text-left">
+        <div class="block-content block-content-full clearfix">
+          <div class="float-right mt-10">
+            <i class="si si-bag fa-3x text-elegance-lighter"></i>
+          </div>
+          <div class="font-size-h3 font-w600">34</div>
+          <div class="font-size-sm font-w600 text-uppercase text-muted">Pharmacist</div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-6 col-xl-3">
+      <a class="block block-bordered block-rounded block-link-shadow text-left">
+        <div class="block-content block-content-full clearfix">
+          <div class="float-right mt-10">
+            <i class="si si-wallet fa-3x text-flat-lighter"></i>
+          </div>
+          <div class="font-size-h3 font-w600">780</div>
+          <div class="font-size-sm font-w600 text-uppercase text-muted">Doctors</div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-6 col-xl-3">
+      <a class="block block-bordered block-rounded block-link-shadow text-left">
+        <div class="block-content block-content-full clearfix">
+          <div class="float-right mt-10">
+            <i class="si si-globe fa-3x text-earth-lighter"></i>
+          </div>
+          <div class="font-size-h3 font-w600">15</div>
+          <div class="font-size-sm font-w600 text-uppercase text-muted">Online Services</div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-6 col-xl-3">
+      <a class="block block-bordered block-rounded block-link-shadow text-left">
+        <div class="block-content block-content-full clearfix">
+          <div class="float-right mt-10">
+            <i class="si si-briefcase fa-3x text-pulse-lighter"></i>
+          </div>
+          <div class="font-size-h3 font-w600">7590</div>
+          <div class="font-size-sm font-w600 text-uppercase text-muted">Patients</div>
+        </div>
+      </a>
+    </div>
+    <!-- END Row #1 -->
+  </div>
+  <div class="row">
+    <!-- Row #2 -->
+    <div class="col-md-6">
+      <div class="block block-bordered block-rounded">
+        <div class="block-header block-header-default border-b">
+          <h3 class="block-title">
+            BMI <small>This week</small>
+          </h3>
+          <div class="block-options">
+            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle"
+              data-action-mode="demo">
+              <i class="si si-refresh"></i>
+            </button>
+            <button type="button" class="btn-block-option">
+              <i class="si si-wrench"></i>
+            </button>
+          </div>
+        </div>
+        <div class="block-content bg-body">
+          <div class="chart-wrapper">
+            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions"
+              [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType"
+              [plugins]="lineChartPlugins">
+            </canvas>
+          </div>
+        </div>
+        <div class="block-content block-content-full">
+          <!-- Lines Chart Container functionality is initialized in js/pages/db_classic.min.js which was auto compiled from _es6/pages/db_classic.js -->
+          <!-- For more info and examples you can check out http://www.chartjs.org/docs/ -->
+          <canvas class="js-chartjs-classic-lines"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="block block-bordered block-rounded">
+        <div class="block-header block-header-default border-b">
+          <h3 class="block-title">
+            Body Temperature <small>This week</small>
+          </h3>
+          <div class="block-options">
+            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle"
+              data-action-mode="demo">
+              <i class="si si-refresh"></i>
+            </button>
+            <button type="button" class="btn-block-option">
+              <i class="si si-wrench"></i>
+            </button>
+          </div>
+        </div>
+        <div class="block-content bg-body">
+          <div class="chart-wrapper">
+            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions"
+              [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType"
+              [plugins]="lineChartPlugins">
+            </canvas>
+          </div>
+        </div>
+        <div class="block-content block-content-full">
+          <!-- Lines Chart Container functionality is initialized in js/pages/db_classic.min.js which was auto compiled from _es6/pages/db_classic.js -->
+          <!-- For more info and examples you can check out http://www.chartjs.org/docs/ -->
+          <canvas class="js-chartjs-classic-lines2"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="block block-bordered block-rounded">
+        <div class="block-header block-header-default border-b">
+          <h3 class="block-title">
+            Blood pressure <small>This week</small>
+          </h3>
+          <div class="block-options">
+            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle"
+              data-action-mode="demo">
+              <i class="si si-refresh"></i>
+            </button>
+            <button type="button" class="btn-block-option">
+              <i class="si si-wrench"></i>
+            </button>
+          </div>
+        </div>
+        <div class="block-content bg-body">
+          <div class="chart-wrapper">
+            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions"
+              [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType"
+              [plugins]="lineChartPlugins">
+            </canvas>
+          </div>
+        </div>
+        <div class="block-content block-content-full">
+          <!-- Lines Chart Container functionality is initialized in js/pages/db_classic.min.js which was auto compiled from _es6/pages/db_classic.js -->
+          <!-- For more info and examples you can check out http://www.chartjs.org/docs/ -->
+          <canvas class="js-chartjs-classic-lines2"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="block block-bordered block-rounded">
+        <div class="block-header block-header-default border-b">
+          <h3 class="block-title">
+            Body Weight <small>This week</small>
+          </h3>
+          <div class="block-options">
+            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle"
+              data-action-mode="demo">
+              <i class="si si-refresh"></i>
+            </button>
+            <button type="button" class="btn-block-option">
+              <i class="si si-wrench"></i>
+            </button>
+          </div>
+        </div>
+        <div class="block-content bg-body">
+          <div class="chart-wrapper">
+            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions"
+              [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType"
+              [plugins]="lineChartPlugins">
+            </canvas>
+          </div>
+        </div>
+        <div class="block-content block-content-full">
+          <!-- Lines Chart Container functionality is initialized in js/pages/db_classic.min.js which was auto compiled from _es6/pages/db_classic.js -->
+          <!-- For more info and examples you can check out http://www.chartjs.org/docs/ -->
+          <canvas class="js-chartjs-classic-lines2"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="block block-bordered block-rounded">
+        <div class="block-header block-header-default border-b">
+          <h3 class="block-title">
+            Body Height <small>This week</small>
+          </h3>
+          <div class="block-options">
+            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle"
+              data-action-mode="demo">
+              <i class="si si-refresh"></i>
+            </button>
+            <button type="button" class="btn-block-option">
+              <i class="si si-wrench"></i>
+            </button>
+          </div>
+        </div>
+        <div class="block-content bg-body">
+          <div class="chart-wrapper">
+            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions"
+              [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType"
+              [plugins]="lineChartPlugins">
+            </canvas>
+          </div>
+        </div>
+        <div class="block-content block-content-full">
+          <!-- Lines Chart Container functionality is initialized in js/pages/db_classic.min.js which was auto compiled from _es6/pages/db_classic.js -->
+          <!-- For more info and examples you can check out http://www.chartjs.org/docs/ -->
+          <canvas class="js-chartjs-classic-lines2"></canvas>
+        </div>
+      </div>
+    </div>
+    <!-- END Row #2 -->
+  </div>
+
+
+</div>
+<!-- END Page Content -->
